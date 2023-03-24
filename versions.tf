@@ -13,7 +13,7 @@ terraform {
   required_version = ">= 0.15"
 
   backend "remote" {
-    organization = "sentinel-org"
+    organization = "teenarods"
 
     workspaces {
       name = "learn-sentinel-tfc"
